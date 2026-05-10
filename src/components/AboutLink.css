@@ -1,0 +1,33 @@
+.about-link {
+  width: 100%;
+  margin-top: 10px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: color 0.2s ease;
+}
+
+.about-link::before,
+.about-link::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #555;
+  transition: background 0.2s ease;
+}
+
+.about-link:hover {
+  color: #ccc;
+}
+
+.about-link:hover::before,
+.about-link:hover::after {
+  background: #888;
+}

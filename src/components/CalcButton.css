@@ -1,0 +1,31 @@
+.calc-btn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.3s ease;
+}
+
+.calc-btn:hover {
+  transform: scale(1.08);
+}
+
+.calc-btn-number {
+  background: #3a3a5e;
+}
+
+.calc-btn-number:hover {
+  background: #4a4a72;
+}
+
+.calc-btn-operator {
+  background: #6c4df6;
+}
+
+.calc-btn-operator:hover {
+  background: #8868ff;
+}

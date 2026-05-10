@@ -1,0 +1,9 @@
+.icon-image {
+  width: 180px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

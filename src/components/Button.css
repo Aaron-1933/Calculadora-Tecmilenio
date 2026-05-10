@@ -1,0 +1,26 @@
+.btn {
+  border: none;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.6s ease, color 0.3s ease;
+  color: white;
+}
+
+.btn:hover{
+  background-color: rgba(1, 57, 147, 0.622);
+  color: greenyellow;
+}
+
+.login-button {
+  width: 220px;
+  height: 60px;
+  background: #6c4df6;
+}
+
+.register-button {
+  width: 150px;
+  height: 40px;  
+  background: #6254a1;
+}
